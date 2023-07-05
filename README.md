@@ -1,4 +1,4 @@
 ## Aumentar e diminuir fonte - Acessibilidade ##
 
-Simples script Javascript para aumentar e diminuir fonte.
-Esse simples recurso já pode ajudar na acessibilidade de seu site, sistema ou qualquer outro tipo de aplicação.
+Simples script JavaScript para aumentar e diminuir fonte.  
+Esse simples recurso ajudará na acessibilidade da sua aplicação. Auxiliando pessoas com baixa visão ou dificuldade de leitura.

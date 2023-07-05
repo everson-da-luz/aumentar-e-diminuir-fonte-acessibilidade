@@ -8,7 +8,7 @@ function increaseDecreaseFont() {
 	var elementBtnDecreaseFont = document.getElementById('decrease-font');
 	var cookieFontSize = getCookie('font-size');
 
-	// Defini o valor do fontSize, caso não exista o cookie, será atribuído 100%
+	// Defini o valor do fontSize. Caso não exista o cookie será atribuído 100% como padrão
 	if (cookieFontSize != '') {
 		var fontSize = parseInt(cookieFontSize);
 		elementBody.style.fontSize = fontSize + '%';
@@ -16,7 +16,7 @@ function increaseDecreaseFont() {
 		var fontSize = 100;
 	}
 
-	// Valor de incremento ou decremento, equivale a 10% do valor do Body
+	// Valor de incremento ou decremento. Equivale a 10% do valor do elemento body
 	var increaseDecrease = 10;
 
 	// Evento de click para aumentar a fonte
